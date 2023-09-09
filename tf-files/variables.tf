@@ -1,15 +1,15 @@
 variable "git-name" {
-  default = "WRITE -YOUR-GITHUB-NAME"
+  default = "<YOUR-GUTHUB-USERNAME"
 }
 
 variable "git-token" {
-  default = "WRITE -YOUR-GITHUB-TOKEN"
+  default = "<YOUR-GUTHUB-TOKEN-FOR-AUTHENTICATION"
 }
 
 variable "key-name" {
-  default = "YOUR-KEY-NAME"
+  default = "<YOUR-AWS-EC2-KEYPAIR>"     ## WITHOUT .pem
 }
 
 variable "hosted-zone" {
-  default = "YOUR-HOSTED-ZONE"
+  default = "<YOUR-DOMAIN-NAME>"
 }
